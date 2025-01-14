@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Montserrat } from "next/font/google";
 import GlobalStyles from "./components/GlobalStyles";
-import TryNowButton from "./components/TryNowButton";
+// import TryNowButton from "./components/TryNowButton";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -42,7 +42,7 @@ export default function RootLayout({
             `,
           }}
         />
-        <TryNowButton />
+        {/* <TryNowButton /> */}
       </body>
     </html>
   );
